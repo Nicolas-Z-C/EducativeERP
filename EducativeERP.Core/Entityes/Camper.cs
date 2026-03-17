@@ -9,10 +9,9 @@ namespace EducativeERP.Core.Entityes
 {
     public class Camper : Persona
     {
-        public string direccion {get;set;}
-        public int fijo {get;set;}
-
+        public string Direccion {get;set;}
+        public int Fijo {get;set;}
         public EstadoCamper Estado {get;set;}
-        public NivelRiesgo nivelRiesgo {get;set;}
+        public NivelRiesgo NivelRiesgo {get;set;}
     }
 }

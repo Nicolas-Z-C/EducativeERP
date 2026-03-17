@@ -7,9 +7,9 @@ namespace EducativeERP.Core.Entityes
 {
     public class Evaluacion : BaseEntity
     {
-        public double notaTeorica {get;set;}
-        public double notaPractica {get;set;}
-        public double quicesTrabajos {get;set;}
-        public double notaFinal {get;set;}
+        public double NotaTeorica {get;set;}
+        public double NotaPractica {get;set;}
+        public double QuicesTrabajos {get;set;}
+        public double NotaFinal {get;set;}
     }
 }
