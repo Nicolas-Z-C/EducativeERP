@@ -1,13 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\EducativeERP.Core\EducativeERP.Core.csproj" />
     <ProjectReference Include="..\EducativeERP.Data\EducativeERP.Data.csproj" />
-    <ProjectReference Include="..\EducativeERP.Services\EducativeERP.Services.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
