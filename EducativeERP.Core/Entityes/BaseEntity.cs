@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace EducativeERP.Core.Entityes
 {
-    public class BaseEntity
+    public abstract class BaseEntity
     {
-        
+        public int Id {get; set;}
     }
 }

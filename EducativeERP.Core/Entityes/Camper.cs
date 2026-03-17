@@ -2,11 +2,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EducativeERP.Core.Enums;
+
 
 namespace EducativeERP.Core.Entityes
 {
-    public class Camper
+    public class Camper : Persona
     {
-        
+        public string direccion {get;set;}
+        public int fijo {get;set;}
+
+        public EstadoCamper Estado {get;set;}
+        public NivelRiesgo nivelRiesgo {get;set;}
     }
 }

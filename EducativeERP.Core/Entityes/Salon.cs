@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace EducativeERP.Core.Entityes
 {
-    public class Salon
+    public class Salon : BaseEntity
     {
-        
+        public string Nombre {get;set;}
+        public int Capacidad {get;set;}
     }
 }
