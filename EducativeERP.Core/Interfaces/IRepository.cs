@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace EducativeERP.Core.Interfaces
 {
-    public interface IRepository 
+    public interface IRepository<T>
     {
         
     }
