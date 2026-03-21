@@ -11,7 +11,7 @@ namespace EducativeERP.Data.Repositories
         public SalonRepository() : base(Path.Combine("EducativeERP.Data","JSONS","Salones.json"))
         {
         }
-        public Salon TraerSalonPorNombre(string nombre)
+        public Salon? TraerSalonPorNombre(string nombre)
         {
             return LeerTodo().FirstOrDefault(x => x.Nombre == nombre);
         }

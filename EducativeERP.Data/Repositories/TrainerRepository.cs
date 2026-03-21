@@ -13,12 +13,12 @@ namespace EducativeERP.Data.Repositories
         {
         }
 
-        public Trainer TraerTrainerPorCC(int CC)
+        public Trainer? TraerTrainerPorCC(int CC)
         {
             return LeerTodo().FirstOrDefault(x => x.Cc == CC);
         }
 
-        public Trainer  TraerTrainerPorNombre(string nombreApellido)
+        public Trainer?  TraerTrainerPorNombre(string nombreApellido)
         {
             return LeerTodo().FirstOrDefault(x => x.NombreApellido == nombreApellido);
         }

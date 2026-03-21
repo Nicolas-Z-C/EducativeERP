@@ -29,7 +29,7 @@ namespace EducativeERP.Data.Repositories
             return LeerTodo().Where(x => x.IdSalon == idSalon);
         }
 
-        public Matricula TraerMatriculaCamper(int idCamper)
+        public Matricula? TraerMatriculaCamper(int idCamper)
         {
             return LeerTodo().FirstOrDefault(x => x.IdCamper == idCamper);
         } 
@@ -37,6 +37,12 @@ namespace EducativeERP.Data.Repositories
         public IEnumerable<Matricula> TraerMatriculasPorHorario(Turno horario)
         {
             return LeerTodo().Where(x => x.Horario == horario);
+        }
+
+        public int CapacidadSalonPorTurno(int idSalon, Turno horario)
+        {
+            var db = LeerTodo().Where(x => x.IdSalon == idSalon && x.Horario == horario);
+            return db.Count();
         }
     }
 }

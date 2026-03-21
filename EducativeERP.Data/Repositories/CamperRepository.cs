@@ -15,12 +15,12 @@ namespace EducativeERP.Data.Repositories
         {
         }
 
-        public Camper TraerCamperPorCC(int CC)
+        public Camper? TraerCamperPorCC(int CC)
         {
             return LeerTodo().FirstOrDefault(x => x.Cc == CC);
         }
 
-        public Camper TraerCamperPorNombre(string nombreApellido)
+        public Camper? TraerCamperPorNombre(string nombreApellido)
         {
             return LeerTodo().FirstOrDefault(x => x.NombreApellido == nombreApellido);
         }

@@ -51,9 +51,9 @@ namespace EducativeERP.Data.Repositories
             Guardar(db);
         }
 
-        public void Eliminar(T entity)
+        public void Eliminar(int id)
         {
-            var db = LeerTodo().Where(x => x.Id != entity.Id);
+            var db = LeerTodo().Where(x => x.Id != id);
             Guardar(db.ToList());
         }
 

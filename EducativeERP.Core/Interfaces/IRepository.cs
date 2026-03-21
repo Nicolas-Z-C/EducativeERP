@@ -7,6 +7,10 @@ namespace EducativeERP.Core.Interfaces
 {
     public interface IRepository<T>
     {
-        
+        IEnumerable<T>LeerTodo();
+        T? BuscarId(int id);
+        void Agregar(T entity);
+        void Actualizar(T entity);
+        void Eliminar(int id);
     }
 }
