@@ -32,8 +32,7 @@ namespace EducativeERP.Data.Repositories
 
         public T? BuscarId(int id)
         {
-            return LeerTodo()
-                   .FirstOrDefault(e => e.Id == id);
+            return LeerTodo().FirstOrDefault(e => e.Id == id);
         }
 
         public void Agregar(T entity)

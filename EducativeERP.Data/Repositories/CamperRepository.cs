@@ -11,22 +11,28 @@ namespace EducativeERP.Data.Repositories
     public class CamperRepository : BaseRepository<Camper>, ICamperRepository
     {
 
-        public CamperRepository() : base(Path.Combine("EducativeERP","Data","JSONS","Campers.json"))
+        public CamperRepository() : base(Path.Combine("EducativeERP.Data","JSONS","Campers.json"))
         {
+        }
+
+        public Camper TraerCamperPorCC(int CC)
+        {
+            return LeerTodo().FirstOrDefault(x => x.Cc == CC);
+        }
+
+        public Camper TraerCamperPorNombre(string nombreApellido)
+        {
+            return LeerTodo().FirstOrDefault(x => x.NombreApellido == nombreApellido);
         }
 
         public IEnumerable<Camper> TraerPorEstado(EstadoCamper estado)
         {
-            return   LeerTodo()
-                     .ToList()
-                     .Where(x => x.Estado == estado);
+            return   LeerTodo().Where(x => x.Estado == estado);
         }
 
         public IEnumerable<Camper> TraerPorRiesgo(NivelRiesgo riesgo)
         {
-           return LeerTodo()
-                  .ToList()
-                  .Where(x => x.NivelRiesgo == riesgo);
+           return LeerTodo().Where(x => x.NivelRiesgo == riesgo);
         }
     }
 }

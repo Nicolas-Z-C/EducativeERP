@@ -6,7 +6,7 @@ using EducativeERP.Core.Enums;
 
 namespace EducativeERP.Core.Entityes
 {
-    public class Trainer : BaseEntity
+    public class Trainer : Persona
     {
         public Turno Horario {get;set;}
         public string Especialidad {get;set;}
