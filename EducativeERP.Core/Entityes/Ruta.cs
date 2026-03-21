@@ -7,6 +7,7 @@ namespace EducativeERP.Core.Entityes
 {
     public class Ruta : BaseEntity
     {
+        public string Nombre {get;set;}
         public string Fundamentos {get;set;}
         public string Web {get;set;}
         public string Formal {get;set;}
