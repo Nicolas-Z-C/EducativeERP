@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\EducativeERP.Data\EducativeERP.Data.csproj" />
+    <ProjectReference Include="..\EducativeERP.Core\EducativeERP.Core.csproj"/>
   </ItemGroup>
 
   <PropertyGroup>

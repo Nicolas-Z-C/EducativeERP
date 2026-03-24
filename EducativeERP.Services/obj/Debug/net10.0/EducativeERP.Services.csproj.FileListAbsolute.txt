@@ -1,0 +1,16 @@
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\EducativeERP.Services.csproj.AssemblyReference.cache
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\EducativeERP.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\EducativeERP.Services.AssemblyInfoInputs.cache
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\EducativeERP.Services.AssemblyInfo.cs
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\EducativeERP.Services.csproj.CoreCompileInputs.cache
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\EducativeERP.Services.sourcelink.json
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\bin\Debug\net10.0\EducativeERP.Services.deps.json
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\bin\Debug\net10.0\EducativeERP.Services.dll
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\bin\Debug\net10.0\EducativeERP.Services.pdb
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\bin\Debug\net10.0\EducativeERP.Core.dll
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\bin\Debug\net10.0\EducativeERP.Core.pdb
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\Educativ.2E564943.Up2Date
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\EducativeERP.Services.dll
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\refint\EducativeERP.Services.dll
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\EducativeERP.Services.pdb
+C:\Users\ytraz\OneDrive\Desktop\Repos\C# 1er Proyecto\EducativeERP.Services\obj\Debug\net10.0\ref\EducativeERP.Services.dll

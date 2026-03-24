@@ -12,5 +12,7 @@ namespace EducativeERP.Core.Entityes
         public string NombreApellido {get;set;}
 
         public int Numero {get;set;}
+
+        public string Contrasena {get;set;}
     }
 }

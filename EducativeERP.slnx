@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="EducativeERP.Console/EducativeERP.Console.csproj" />
+  <Project Path="EducativeERP.ConsoleApp/EducativeERP.ConsoleApp.csproj" />
   <Project Path="EducativeERP.Core/EducativeERP.Core.csproj" />
   <Project Path="EducativeERP.Data/EducativeERP.Data.csproj" />
   <Project Path="EducativeERP.Services/EducativeERP.Services.csproj" />

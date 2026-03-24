@@ -9,6 +9,6 @@ namespace EducativeERP.Core.Interfaces
     public interface IRutaRepository : IRepository<Ruta>
     {
         IEnumerable<Ruta> TraerRutaPorBackend(string backend);
-        IEnumerable<Ruta> TraerRutaPorBasedeDatos(string db);
+        IEnumerable<Ruta> TraerRutaPorBaseDeDatos(string db);
     }
 }

@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/EducativeERP.Core.dll": {}
         }
-      },
-      "EducativeERP.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "EducativeERP.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/EducativeERP.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EducativeERP.Data.dll": {}
-        }
       }
     }
   },
@@ -32,16 +19,11 @@
       "type": "project",
       "path": "../EducativeERP.Core/EducativeERP.Core.csproj",
       "msbuildProject": "../EducativeERP.Core/EducativeERP.Core.csproj"
-    },
-    "EducativeERP.Data/1.0.0": {
-      "type": "project",
-      "path": "../EducativeERP.Data/EducativeERP.Data.csproj",
-      "msbuildProject": "../EducativeERP.Data/EducativeERP.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "EducativeERP.Data >= 1.0.0"
+      "EducativeERP.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -77,8 +59,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\ytraz\\OneDrive\\Desktop\\Repos\\C# 1er Proyecto\\EducativeERP.Data\\EducativeERP.Data.csproj": {
-              "projectPath": "C:\\Users\\ytraz\\OneDrive\\Desktop\\Repos\\C# 1er Proyecto\\EducativeERP.Data\\EducativeERP.Data.csproj"
+            "C:\\Users\\ytraz\\OneDrive\\Desktop\\Repos\\C# 1er Proyecto\\EducativeERP.Core\\EducativeERP.Core.csproj": {
+              "projectPath": "C:\\Users\\ytraz\\OneDrive\\Desktop\\Repos\\C# 1er Proyecto\\EducativeERP.Core\\EducativeERP.Core.csproj"
             }
           }
         }

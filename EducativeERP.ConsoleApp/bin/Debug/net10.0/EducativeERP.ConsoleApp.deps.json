@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "EducativeERP.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "EducativeERP.Core": "1.0.0",
+          "EducativeERP.Data": "1.0.0",
+          "EducativeERP.Services": "1.0.0"
+        },
+        "runtime": {
+          "EducativeERP.ConsoleApp.dll": {}
+        }
+      },
+      "EducativeERP.Core/1.0.0": {
+        "runtime": {
+          "EducativeERP.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EducativeERP.Data/1.0.0": {
+        "dependencies": {
+          "EducativeERP.Core": "1.0.0"
+        },
+        "runtime": {
+          "EducativeERP.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "EducativeERP.Services/1.0.0": {
+        "dependencies": {
+          "EducativeERP.Core": "1.0.0"
+        },
+        "runtime": {
+          "EducativeERP.Services.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EducativeERP.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EducativeERP.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EducativeERP.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EducativeERP.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
