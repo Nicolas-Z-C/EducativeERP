@@ -8,7 +8,7 @@ namespace EducativeERP.Data.Repositories
 {
     public class RutaRepository : BaseRepository<Ruta>, IRutaRepository
     {
-        public RutaRepository() : base(Path.Combine("EducativeERP.Data","JSONS","Rutas.json"))
+        public RutaRepository() : base(JsonsPath.RutaPath)
         {
         }
 

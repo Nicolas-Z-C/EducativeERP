@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EducativeERP.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+877eb234533f4cd782195e0b705bb6eb0e379c78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90090a92ddac336ec7a39059153768634b826b4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EducativeERP.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EducativeERP.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

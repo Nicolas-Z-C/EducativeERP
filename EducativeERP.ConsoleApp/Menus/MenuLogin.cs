@@ -19,7 +19,7 @@ namespace EducativeERP.ConsoleApp.Menus
 
         public string IniciarSesion()
         {
-            Console.WriteLine("***Bienvenido A EducativeERP*** \n\n");
+            Console.WriteLine("\n***Bienvenido A EducativeERP*** \n");
             Console.Write("---Porfavor ingrese su ID: ");
             string idString = Console.ReadLine();
             int ID; 

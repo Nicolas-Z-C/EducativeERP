@@ -8,7 +8,7 @@ namespace EducativeERP.Data.Repositories
 {
     public class EvaluacionRepository : BaseRepository<Evaluacion>, IEvaluacionRepository
     {
-        public EvaluacionRepository() : base(Path.Combine("EducativeERP.Data","JSONS","Evaluaciones.json"))
+        public EvaluacionRepository() : base(JsonsPath.EvaluacionPath)
         {
         }
 

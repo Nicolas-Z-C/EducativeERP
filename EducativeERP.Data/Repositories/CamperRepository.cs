@@ -4,14 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using EducativeERP.Core.Entityes;
 using EducativeERP.Core.Enums;
-
+using EducativeERP.Data;
 namespace EducativeERP.Data.Repositories
 {
     //EducativeERP.Data\JSONS
     public class CamperRepository : BaseRepository<Camper>, ICamperRepository
     {
 
-        public CamperRepository() : base(Path.Combine("EducativeERP.Data","JSONS","Campers.json"))
+        public CamperRepository() : base(JsonsPath.CamperPath)
         {
         }
 

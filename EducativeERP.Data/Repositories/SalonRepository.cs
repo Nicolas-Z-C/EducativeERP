@@ -8,7 +8,7 @@ namespace EducativeERP.Data.Repositories
 {
     public class SalonRepository : BaseRepository<Salon>, ISalonRepository
     {
-        public SalonRepository() : base(Path.Combine("EducativeERP.Data","JSONS","Salones.json"))
+        public SalonRepository() : base(JsonsPath.SalonPath)
         {
         }
         public Salon? TraerSalonPorNombre(string nombre)

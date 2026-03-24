@@ -9,7 +9,7 @@ namespace EducativeERP.Data.Repositories
 {
     public class TrainerRepository : BaseRepository<Trainer>, ITrainerRepository
     {
-        public TrainerRepository() : base(Path.Combine("EducativeERP.Data","JSONS","Trainers.json"))
+        public TrainerRepository() : base(JsonsPath.TrainerPath)
         {
         }
 

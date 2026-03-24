@@ -9,7 +9,7 @@ namespace EducativeERP.Data.Repositories
 {
     public class MatriculaRepository : BaseRepository<Matricula>, IMatriculaRepository
     {
-        public MatriculaRepository() : base(Path.Combine("EducativeERP.Data","JSONS","Matriculas.json"))
+        public MatriculaRepository() : base(JsonsPath.MatriculaPath)
         {
         }
 

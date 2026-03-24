@@ -59,7 +59,7 @@ namespace EducativeERP.Data.Repositories
 
         private void Guardar(List<T> db)
         {
-            File.WriteAllText(_filepath, System.Text.Json.JsonSerializer.Serialize(db, options));
+            File.WriteAllText(_filepath, JsonSerializer.Serialize(db, options));
         }
     }
 }

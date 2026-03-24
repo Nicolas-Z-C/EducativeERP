@@ -8,7 +8,7 @@ namespace EducativeERP.Data.Repositories
 {
     public class CoordinadorRepository : BaseRepository<Coordiador>, ICoordinadorRepository
     {
-        public CoordinadorRepository() : base(Path.Combine("EducativeERP.Data","JSONS","Coordinador.json"))
+        public CoordinadorRepository() : base(JsonsPath.CoordiadorPath)
         {
         }
     }
