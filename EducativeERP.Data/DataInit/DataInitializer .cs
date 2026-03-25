@@ -24,7 +24,7 @@ namespace EducativeERP.Data.DataInit
             foreach (var archivo in _archivos)
             {
                 if (!File.Exists(archivo))
-                    File.WriteAllText(archivo, "[]");
+                    File.WriteAllText(archivo, "{}");
             }
         }
     }

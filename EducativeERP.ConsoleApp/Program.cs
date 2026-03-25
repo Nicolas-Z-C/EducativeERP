@@ -8,7 +8,7 @@ using EducativeERP.Services.Services;
 
 DataInitializer initializer = new DataInitializer();
 initializer.Inicializar();
-Console.WriteLine("Funciona");
+
 ICamperRepository camperRepo = new CamperRepository();
 ITrainerRepository trainerRepo = new TrainerRepository();
 ICoordinadorRepository coordinadorRepo = new CoordinadorRepository();
