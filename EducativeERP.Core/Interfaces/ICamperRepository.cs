@@ -10,7 +10,7 @@ namespace EducativeERP.Core.Interfaces
     public interface ICamperRepository : IRepository<Camper> 
     {
         Camper? TraerCamperPorCC(int CC);
-        Camper? TraerCamperPorNombre(string nombreApellido);
+        Camper? TraerCamperPorNombre(string nombre,string apellido);
         IEnumerable<Camper> TraerPorEstado(EstadoCamper estado);
         IEnumerable<Camper> TraerPorRiesgo(NivelRiesgo riesgo);
     }

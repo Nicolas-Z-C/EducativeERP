@@ -14,5 +14,6 @@ namespace EducativeERP.Core.Entityes
         public int Fijo {get;set;}
         public EstadoCamper Estado {get;set;}
         public NivelRiesgo NivelRiesgo {get;set;}
+        public double Ponderado {get;set;}
     }
 }

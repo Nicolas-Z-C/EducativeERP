@@ -18,9 +18,9 @@ namespace EducativeERP.Data.Repositories
             return LeerTodo().FirstOrDefault(x => x.Cc == CC);
         }
 
-        public Trainer?  TraerTrainerPorNombre(string nombreApellido)
+        public Trainer?  TraerTrainerPorNombre(string nombre, string apellido)
         {
-            return LeerTodo().FirstOrDefault(x => x.NombreApellido == nombreApellido);
+            return LeerTodo().FirstOrDefault(x => x.Nombre == nombre && x.Apellido == apellido);
         }
         public IEnumerable<Trainer> TraerTrainersPorEspecialidad(string especialidad)
         {

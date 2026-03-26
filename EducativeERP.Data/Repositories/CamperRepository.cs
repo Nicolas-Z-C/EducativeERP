@@ -20,9 +20,9 @@ namespace EducativeERP.Data.Repositories
             return LeerTodo().FirstOrDefault(x => x.Cc == CC);
         }
 
-        public Camper? TraerCamperPorNombre(string nombreApellido)
+        public Camper? TraerCamperPorNombre(string nombre, string apellido)
         {
-            return LeerTodo().FirstOrDefault(x => x.NombreApellido == nombreApellido);
+            return LeerTodo().FirstOrDefault(x => x.Nombre == nombre && x.Apellido == apellido);
         }
 
         public IEnumerable<Camper> TraerPorEstado(EstadoCamper estado)

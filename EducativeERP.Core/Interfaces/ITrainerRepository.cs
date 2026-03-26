@@ -10,7 +10,7 @@ namespace EducativeERP.Core.Interfaces
     public interface ITrainerRepository : IRepository<Trainer>
     {
         Trainer? TraerTrainerPorCC(int CC);
-        Trainer?  TraerTrainerPorNombre(string nombreApellido);
+        Trainer?  TraerTrainerPorNombre(string nombre, string apellido);
         IEnumerable<Trainer> TraerTrainersPorEspecialidad(string especialidad);
         IEnumerable<Trainer> TraerTrainersPorHorario(Turno horario);
     }
