@@ -16,5 +16,16 @@ namespace EducativeERP.Data.Repositories
         {
             return LeerTodo().Where(x => x.CamperId == IdCamper);
         }
+
+        public Evaluacion TraerNotasCamper(int IDCamper, NombreModulo modulo)
+        {
+            return TraerNotasCamper(IDCamper).FirstOrDefault(x => x.NombreModulo == modulo);
+        }
+
+        public IEnumerable<Evaluacion> TraerNotasPorRuta(int IdRuta)
+        {
+            return LeerTodo().Where(x => x.RutaId == IdRuta);
+        }
+    
     }
 }

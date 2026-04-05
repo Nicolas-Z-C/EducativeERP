@@ -9,6 +9,10 @@ namespace EducativeERP.Services.Services
     public class CamperService 
     {
         //Agregar eventos
+
+        public event Action<Camper>? CamperAgregado;
+        public event Action<Camper>? CamperCambioEstado;
+        public event Action<Camper>? CamperCambioRiesgo;
         private readonly ICamperRepository _CamperRepository;
 
         public CamperService(ICamperRepository camperRepository)
@@ -45,6 +49,7 @@ namespace EducativeERP.Services.Services
             };
 
             _CamperRepository.Agregar(camper);
+            CamperAgregado?.Invoke(camper);
         }
 
         public IEnumerable<Camper> ListarCampers()
@@ -63,16 +68,22 @@ namespace EducativeERP.Services.Services
         public Camper ListarCampers(string nombre,string apellido)
         {
             Camper? camper = _CamperRepository.TraerCamperPorNombre(nombre,apellido);
-
             if (camper == null)
-                throw new Exception("No se encontro al camper buscado");
+                throw new Exception("No se encontro el camper buscado");
             return camper;
         }
 
         public void CambiarEstadoCamper(int ID, EstadoCamper NuevoEstado)
         {
-            
+            Camper? camper = _CamperRepository.BuscarId(ID);
+            if (camper == null)
+                throw new Exception("No se encontro el camper buscado");
+            camper.Estado = NuevoEstado;
+            _CamperRepository.Actualizar(camper);
+            CamperCambioEstado?.Invoke(camper);
         }
+
+        public 
 
         private bool CheckNombres(string nombre)
         {
