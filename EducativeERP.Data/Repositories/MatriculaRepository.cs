@@ -18,31 +18,14 @@ namespace EducativeERP.Data.Repositories
             return LeerTodo().Where(x => x.IdRuta == idRuta);
         }
 
-        
-        public IEnumerable<Matricula> TraerMatriculasPorTrainer(int idTrainer)
-        {
-            return LeerTodo().Where(x => x.IdTrainer == idTrainer);
-        }
-
-        public IEnumerable<Matricula> TraerMatriculasPorSalon(int idSalon)
-        {
-            return LeerTodo().Where(x => x.IdSalon == idSalon);
-        }
-
         public Matricula? TraerMatriculaCamper(int idCamper)
         {
             return LeerTodo().FirstOrDefault(x => x.IdCamper == idCamper);
         } 
 
-        public IEnumerable<Matricula> TraerMatriculasPorHorario(Turno horario)
+        public int CapacidadActual(int idR)
         {
-            return LeerTodo().Where(x => x.Horario == horario);
-        }
-
-        public int CapacidadSalonPorTurno(int idSalon, Turno horario)
-        {
-            var db = LeerTodo().Where(x => x.IdSalon == idSalon && x.Horario == horario);
-            return db.Count();
+            return LeerTodo().Where(x => x.IdRuta == idR).Count();
         }
     }
 }

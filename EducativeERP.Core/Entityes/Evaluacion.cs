@@ -14,7 +14,7 @@ namespace EducativeERP.Core.Entityes
             public double NotaTeorica {get;set;} = 0;
             public double NotaPractica {get;set;} = 0;
             public double QuicesTrabajos {get;set;} = 0;
-            public double NotaFinal {get;set;}
+            public double NotaFinal {get;set;} = 0;
             public EstadoModulo EstadoModulo {get;set;}
         }
     }

@@ -17,6 +17,12 @@ namespace EducativeERP.Services.Services
             _EvaliacionRepo = evaluacionRepository;
         }
 
+        //Metodos generales para uso en eventos 
+
+        internal void Agregar(Evaluacion evaluacion)
+        {
+            _EvaliacionRepo.Agregar(evaluacion);
+        }
 
         //Metodos Disenados para el coordinador
 

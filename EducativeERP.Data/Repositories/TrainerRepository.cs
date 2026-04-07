@@ -27,8 +27,11 @@ namespace EducativeERP.Data.Repositories
             return LeerTodo()
                    .Where(x => x.Especialidad == especialidad);
         }
-
-        
+        public IEnumerable<Trainer> TraerTrainersPorEspecialidad(string especialidad)
+        {
+            return LeerTodo()
+                   .Where(x => x.Especialidad == especialidad);
+        }
         public IEnumerable<Trainer> TraerTrainersPorHorario(Turno horario)
         {
             return LeerTodo()
